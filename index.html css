@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Аватар - Фантастичний світ Пандори</title>
+</head>
+<body>
+
+    <header>
+        <h1>Аватар</h1>
+        <p>Фантастичний світ Пандори</p>
+    </header>
+
+    <nav>
+        <a href="#about">Про фільм</a>
+        <a href="#trailer">Трейлер</a>
+        <a href="#more">Більше</a>
+    </nav>
+
+    <section id="about">
+        <h2>Про фільм</h2>
+        <p>«Аватар» — це неймовірна історія про взаємозв’язок природи, людей та іншої цивілізації. Події розгортаються на планеті Пандора, де мешкає народ на’ві.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg" alt="Постер Аватар">
+    </section>
+
+    <section id="trailer">
+        <h2>Трейлер</h2>
+        <iframe src="https://www.youtube.com/embed/5PSNL1qE6VY" title="Аватар трейлер" allowfullscreen></iframe>
+    </section>
+
+    <section id="more">
+        <h2>Хочеш дізнатись більше?</h2>
+        <a class="button" href="https://uk.wikipedia.org/wiki/Аватар_(фільм,_2009)" target="_blank">Дізнатись більше</a>
+    </section>
+
+    <footer>
+        Автор: Біркович Макар Мукачево
+    </footer>
+
+</body>
+</html>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e0f2f1;
+            color: #004d40;
+        }
+
+        header {
+            background-color: #00796b;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #004d40;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        iframe {
+            width: 90%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #004d40;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
